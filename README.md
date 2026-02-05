@@ -27,6 +27,96 @@ Les sujets sont organises en categories thematiques. Chaque sujet inclut :
 
 ---
 
+## Index des Sujets
+
+### Categorie A : Agents Conversationnels & RAG
+| # | Sujet | Difficulte |
+|---|-------|------------|
+| [A1](#a1---agent-rag-pour-documentation-difficulte-25) | Agent RAG pour Documentation | 2/5 |
+| [A2](#a2---assistant-personnel-intelligent-difficulte-35) | Assistant Personnel Intelligent | 3/5 |
+| [A3](#a3---agent-de-recherche-web-difficulte-25) | Agent de Recherche Web | 2/5 |
+| [A4](#a4---chatbot-multi-personnalites-difficulte-25) | Chatbot Multi-Personnalites | 2/5 |
+
+### Categorie B : Jeux de Role & Narration Interactive
+| # | Sujet | Difficulte |
+|---|-------|------------|
+| [B1](#b1---escape-game-textuel-multi-agents-difficulte-35) | Escape Game Textuel Multi-Agents | 3/5 |
+| [B2](#b2---maitre-de-jeu-ia-pour-jdr-difficulte-35) | Maitre de Jeu IA pour JDR | 3/5 |
+| [B3](#b3---visual-novel-generatif-difficulte-35) | Visual Novel Generatif | 3/5 |
+| [B4](#b4---conte-musical-interactif-difficulte-45) | Conte Musical Interactif | 4/5 |
+| [B5](#b5---simulation-de-proces-difficulte-35) | Simulation de Proces | 3/5 |
+
+### Categorie C : Creation Multimedia & Arts Generatifs
+| # | Sujet | Difficulte |
+|---|-------|------------|
+| [C1](#c1---generateur-de-bandes-dessinees-difficulte-35) | Generateur de Bandes Dessinees | 3/5 |
+| [C2](#c2---compositeur-musical-ia-difficulte-35) | Compositeur Musical IA | 3/5 |
+| [C3](#c3---createur-de-posts-reseaux-sociaux-difficulte-25) | Createur de Posts Reseaux Sociaux | 2/5 |
+| [C4](#c4---studio-de-doublage-virtuel-difficulte-35) | Studio de Doublage Virtuel | 3/5 |
+| [C5](#c5---generateur-de-pochettes-dalbum-difficulte-25) | Generateur de Pochettes d'Album | 2/5 |
+| [C6](#c6---avatar-anime-interactif-difficulte-45) | Avatar Anime Interactif | 4/5 |
+
+### Categorie D : Applications Metier & Professionnelles
+| # | Sujet | Difficulte |
+|---|-------|------------|
+| [D1](#d1---agent-de-recrutement-difficulte-35) | Agent de Recrutement | 3/5 |
+| [D2](#d2---generateur-de-contrats-difficulte-25) | Generateur de Contrats | 2/5 |
+| [D3](#d3---veille-concurrentielle-difficulte-35) | Veille Concurrentielle | 3/5 |
+| [D4](#d4---assistant-juridique-difficulte-35) | Assistant Juridique | 3/5 |
+| [D5](#d5---redacteur-de-rapports-difficulte-25) | Redacteur de Rapports | 2/5 |
+| [D6](#d6---traducteur-localisateur-difficulte-25) | Traducteur-Localisateur | 2/5 |
+
+### Categorie E : Outils pour Developpeurs
+| # | Sujet | Difficulte |
+|---|-------|------------|
+| [E1](#e1---generateur-de-tests-unitaires-difficulte-35) | Generateur de Tests Unitaires | 3/5 |
+| [E2](#e2---documenteur-de-code-difficulte-25) | Documenteur de Code | 2/5 |
+| [E3](#e3---revieweur-de-code-ia-difficulte-35) | Revieweur de Code IA | 3/5 |
+| [E4](#e4---convertisseur-de-langage-difficulte-35) | Convertisseur de Langage | 3/5 |
+| [E5](#e5---generateur-dapi-mock-difficulte-25) | Generateur d'API Mock | 2/5 |
+
+### Categorie F : Education & Formation
+| # | Sujet | Difficulte |
+|---|-------|------------|
+| [F1](#f1---generateur-de-quiz-difficulte-25) | Generateur de Quiz | 2/5 |
+| [F2](#f2---tuteur-de-code-adaptatif-difficulte-35) | Tuteur de Code Adaptatif | 3/5 |
+| [F3](#f3---correcteur-de-copies-intelligent-difficulte-35) | Correcteur de Copies Intelligent | 3/5 |
+| [F4](#f4---simulateur-dentretien-difficulte-25) | Simulateur d'Entretien | 2/5 |
+| [F5](#f5---generateur-de-flashcards-difficulte-25) | Generateur de Flashcards | 2/5 |
+| [F6](#f6---professeur-de-langues-difficulte-35) | Professeur de Langues | 3/5 |
+
+### Categorie G : Jeux & Divertissement
+| # | Sujet | Difficulte |
+|---|-------|------------|
+| [G1](#g1---bot-de-jeu-de-societe-difficulte-35) | Bot de Jeu de Societe | 3/5 |
+| [G2](#g2---generateur-de-puzzles-difficulte-25) | Generateur de Puzzles | 2/5 |
+| [G3](#g3---commentateur-sportif-ia-difficulte-35) | Commentateur Sportif IA | 3/5 |
+| [G4](#g4---createur-de-niveaux-de-jeu-difficulte-35) | Createur de Niveaux de Jeu | 3/5 |
+| [G5](#g5---arbitre-de-debat-difficulte-35) | Arbitre de Debat | 3/5 |
+
+### Categorie H : Analyse & Intelligence
+| # | Sujet | Difficulte |
+|---|-------|------------|
+| [H1](#h1---analyseur-de-sentiments-difficulte-25) | Analyseur de Sentiments | 2/5 |
+| [H2](#h2---detecteur-de-fake-news-difficulte-35) | Detecteur de Fake News | 3/5 |
+| [H3](#h3---resumeur-de-reunions-difficulte-25) | Resumeur de Reunions | 2/5 |
+| [H4](#h4---analyseur-de-tendances-difficulte-35) | Analyseur de Tendances | 3/5 |
+| [H5](#h5---extracteur-de-donnees-structurees-difficulte-25) | Extracteur de Donnees Structurees | 2/5 |
+
+### Categorie X : IA Hybride & Projets Avances (Bonus)
+| # | Sujet | Difficulte |
+|---|-------|------------|
+| [X1](#x1---agent-dargumentation-logique-difficulte-45) | Agent d'Argumentation Logique | 4/5 |
+| [X2](#x2---assistant-de-preuve-mathematique-difficulte-45) | Assistant de Preuve Mathematique | 4/5 |
+| [X3](#x3---systeme-de-recommandation-bayesien-difficulte-45) | Systeme de Recommandation Bayesien | 4/5 |
+| [X4](#x4---negociateur-multi-agents-difficulte-45) | Negociateur Multi-Agents | 4/5 |
+| [X5](#x5---planificateur-sous-contraintes-difficulte-35) | Planificateur sous Contraintes | 3/5 |
+| [X6](#x6---diagnostic-medical-probabiliste-difficulte-45) | Diagnostic Medical Probabiliste | 4/5 |
+| [X7](#x7---agent-de-trading-algorithmique-difficulte-45) | Agent de Trading Algorithmique | 4/5 |
+| [X8](#x8---systeme-de-revision-de-croyances-difficulte-45) | Systeme de Revision de Croyances | 4/5 |
+
+---
+
 ## Categorie A : Agents Conversationnels & RAG
 
 Ces projets explorent les fondamentaux de l'IA generative : chatbots, recherche augmentee, et agents autonomes.
