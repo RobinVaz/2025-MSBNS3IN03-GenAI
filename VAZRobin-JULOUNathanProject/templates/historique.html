@@ -112,27 +112,22 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             
-            // 1. GESTION DE L'AFFICHAGE DU RAPPORT ET DU CHAT
             const cards = document.querySelectorAll('.history-card');
             cards.forEach(card => {
-                // A. Affichage du rapport principal
                 const rawText = card.querySelector('.raw-markdown').innerText;
                 const displayDiv = card.querySelector('.markdown-content');
                 displayDiv.innerHTML = marked.parse(rawText);
 
-                // B. Affichage du chat interactif (s'il existe)
                 const chatRawText = card.querySelector('.raw-chat-history').innerText;
                 const chatZone = card.querySelector('.chat-history-zone');
                 
                 try {
                     const chatHistoryArray = JSON.parse(chatRawText);
                     
-                    // Si le tableau a plus de 3 éléments, c'est que l'utilisateur a posé des questions
                     if (chatHistoryArray && chatHistoryArray.length > 3) {
                         let chatHTML = '<h4 style="color: #475569; margin-bottom: 15px; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px;">💬 Historique de la discussion</h4>';
                         chatHTML += '<div style="background: #f8fafc; padding: 20px; border-radius: 8px; border: 1px solid #e2e8f0; display: flex; flex-direction: column; gap: 15px;">';
                         
-                        // On commence la boucle à 3 pour ignorer les messages systèmes/invisibles du début
                         for (let i = 3; i < chatHistoryArray.length; i++) {
                             const msg = chatHistoryArray[i];
                             
@@ -156,7 +151,6 @@
                 }
             });
 
-            // 2. GESTION DE LA RECHERCHE
             const searchInput = document.getElementById('searchInput');
             if (searchInput) {
                 searchInput.addEventListener('input', function(e) {

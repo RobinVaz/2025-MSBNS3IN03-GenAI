@@ -139,19 +139,17 @@ def chat_api():
     
     data = request.json
     messages = data.get('messages', [])
-    review_id = data.get('review_id') # <--- ON RÉCUPÈRE L'ID ICI
+    review_id = data.get('review_id')
     
     try:
         reply = chat_with_ia(messages)
         
-        # --- ON SAUVEGARDE EN BASE DE DONNÉES ---
         if review_id:
             review = Review.query.get(review_id)
             if review and review.user_id == session['user_id']:
                 messages_to_save = messages + [{"role": "assistant", "content": reply}]
                 review.chat_history = json.dumps(messages_to_save)
                 db.session.commit()
-        # ----------------------------------------
         
         return jsonify({"status": "success", "reply": reply})
     except Exception as e:

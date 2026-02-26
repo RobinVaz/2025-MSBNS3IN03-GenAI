@@ -222,7 +222,7 @@
 
     <script>
         let currentChatHistory = [];
-        let currentReviewId = null; // <--- VARIABLE POUR STOCKER L'ID
+        let currentReviewId = null; 
         
         async function startAnalysis() {
             const owner = document.getElementById('owner').value.trim();
@@ -264,7 +264,7 @@
                 loadingZone.classList.add('hidden');
                 
                 if (data.status === 'success') {
-                    currentReviewId = data.review_id; // <--- ON ENREGISTRE L'ID ICI
+                    currentReviewId = data.review_id; 
                     
                     responseDiv.innerHTML = marked.parse(data.result);
                     resultZone.classList.remove('hidden');
@@ -320,7 +320,7 @@
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ 
                         messages: currentChatHistory,
-                        review_id: currentReviewId // <--- ON ENVOIE L'ID AU SERVEUR ICI
+                        review_id: currentReviewId 
                     })
                 });
                 
